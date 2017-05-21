@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: #efeeef;
+	height : 100%;
+}
+
+.container {
+	width : 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.mainbox {
+	background: #fff;
+	height : 80%;
+	padding-top   : 3%;
+	padding-bottom: 1%;
+	padding-left  : 4%;
+	padding-right : 4%;
+}
+
+.headerbox, .footerbox {
+	padding : 10px;
+	background: #4073c4;
+	color : white;
+	height:50px;
+}
+
+.footerbox {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.logo {
+	height: 50px;
+	width : 50px;
+	background-image: url('../img/icon.jpg');
+	background-size : cover;
+	background-position : center;
+	float : left;
+	margin-right: 20px;
+}
+
+.titletext {
+	height:100%;
+	position:relative;
+}
+
+.titletext p {
+	position: absolute;
+	top: 30%;
+	margin-left: 10%;
+}
+
+#profileTable {
+	width: 80%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.confirmTable {
+	padding: 0px;
+}
+
+.confirmTable th {
+	background-color: lightgreen;
+	margin:0px;
+}
+
+.confirmTable td {
+	border-bottom: solid 1px #dddddd;
+}
+
+.operationBox { 
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.operationBtn {
+	padding: 6px 20px;
+	font-size: 1.1em;
+	border: none;
+	color: white;
+	text-decoration: none;
+	background-color: #8cb5f7;
+	margin-right: 20px;
+}

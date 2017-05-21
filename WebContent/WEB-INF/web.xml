@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>StudyWeb</display-name>
+  
+  <!-- プロフィール入力 -->
+  <servlet>
+  	<servlet-name>ProfileInputAction</servlet-name>
+  	<servlet-class>profile.action.ProfileInputAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProfileInputAction</servlet-name>
+  	<url-pattern>/profile/input/init</url-pattern>
+  	<url-pattern>/profile/input/confirm</url-pattern>
+  </servlet-mapping>
+  
+  <!-- プロフィール確認 -->
+  <servlet>
+  	<servlet-name>ProfileConfirmAction</servlet-name>
+  	<servlet-class>profile.action.ProfileConfirmAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProfileConfirmAction</servlet-name>
+  	<url-pattern>/profile/confirm/init</url-pattern>
+  	<url-pattern>/profile/confirm/regist</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
